@@ -20,13 +20,13 @@ Sektor perkebunan dan pertanian tropis di Indonesia (khususnya Kelapa Sawit, Kar
 **TaniPresisi AI** adalah platform *precision agritech* terintegrasi berbasis Computer Vision (**Google Gemini Multimodal API**) yang mendiagnosa kesehatan daun tanaman perkebunan secara instan, menghitung dosis presisi formula hayati ramah lingkungan per pohon, memitigasi risiko agroklimat cuaca, serta mengotomasi penerbitan Surat Perintah Kerja (SPK) ke mandor lapangan via WhatsApp dalam 1 klik.
 
 ```mermaid
-flowchart LR
-    A[📷 Foto / Kamera Daun] --> B[🧠 Gemini Multimodal Vision API]
-    B --> C[🏷️ Diagnosis Patogen & Tingkat Kerusakan]
-    C --> D[🧪 Dynamic Eco-Dosage Calculator]
-    D --> E[🌦️ Agroclimate & Stomata Engine]
-    E --> F[📲 Otomasi SPK Mandor via WhatsApp]
-    D --> G[📊 Telemetri Dampak Finansial & SDGs]
+flowchart TD
+    A["📷 Citra Daun (Kamera / File)"] --> B["🧠 Gemini Multimodal Vision API"]
+    B --> C["🏷️ Diagnosis Patogen & Keparahan"]
+    C --> D["🧪 Dynamic Eco-Dosage Calculator"]
+    D --> E["🌦️ Agroclimate & Stomata Engine"]
+    E --> F["📲 Otomasi SPK Mandor via WhatsApp"]
+    D --> G["📊 Telemetri Finansial & SDGs"]
 ```
 
 ---
