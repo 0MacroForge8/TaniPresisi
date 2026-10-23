@@ -49,8 +49,8 @@ pid
 # Agent Tooling & Workspace Rules (Local only)
 AGENTS.md
 Agents.md
-README.md
 .agents/skills/
+
 
 
 # IDE & Code Editors
