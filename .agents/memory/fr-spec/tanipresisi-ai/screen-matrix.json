@@ -1,0 +1,38 @@
+{
+  "projectSlug": "tanipresisi-ai",
+  "totalFRs": 5,
+  "totalScreens": 1,
+  "viewModes": [
+    {
+      "modeId": "view-all",
+      "title": "🌿 Lengkap (All-in-One)",
+      "purpose": "Menampilkan seluruh modul terpadu: diagnosis visual, dosis presisi, agroklimat, dan SPK lapangan secara komprehensif."
+    },
+    {
+      "modeId": "view-diagnosis",
+      "title": "🔍 Dokter Daun: Penyakit & Mitigasi Saja",
+      "purpose": "Fokus eksklusif pada identifikasi penyakit tanaman, gejala klorosis/nekrosis lamina, tingkat kerusakan (%), skor akurasi, dan mitigasi darurat pertama yang dibutuhkan tanaman."
+    },
+    {
+      "modeId": "view-fertilizer",
+      "title": "🧪 Dosis Pemupukan Presisi & Biaya",
+      "purpose": "Fokus pada kalkulasi dosis pupuk hayati ramah lingkungan per pohon/hektar, volume pelarutan air, dan penghematan biaya pupuk kimia konvensional."
+    },
+    {
+      "modeId": "view-care",
+      "title": "📅 Perawatan, Agroklimat & SPK Mandor",
+      "purpose": "Fokus pada roadmap perawatan 3 fase (0-48 jam, minggu 1-2, bulan 1), rekomendasi jam semprot stomata cuaca, peringatan hujan, dan dispatch SPK WhatsApp mandor."
+    }
+  ],
+  "screens": [
+    {
+      "frId": "FR-01..05",
+      "screenId": "screen-01-dashboard",
+      "title": "TaniPresisi AI - Integrated Plantation Telemetry & Action Dashboard",
+      "route": "/",
+      "purpose": "Provide end-to-end leaf diagnosis, eco-dosage calculation, impact telemetry, and field dispatch automation with multi-view perspective switching",
+      "primaryComponent": "TaniPresisiDashboard",
+      "stitchPromptBrief": "A modern, deep green agritech unified dashboard featuring multi-view perspective switching, dual-mode leaf input, real-time Gemini Vision AI diagnostic output (Gemini 3.8 Flash, 3.5 Flash Lite, 3.1 Pro), economic savings calculator, and WhatsApp work-order dispatch."
+    }
+  ]
+}
